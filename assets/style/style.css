@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#191a21 ;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #191a21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #50fa7b;
+
+}
+.text-top > h3 {
+    color: white;
+}
+
+.form-container {
+    width: 450px;
+    height: 500px;
+    background-color: #282a36;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.form-group {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 18px;
+}
+.tax {
+    display: flex;
+    color: white;
+}
+.price-to-pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#price {
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.input-form {
+    color: white;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #50fa7b;
+    font-family: 'Oswald', sans-serif;
+}
+
+.select-input {
+    color: white;
+    height: 45px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #50fa7b;
+    box-shadow: unset;
+    font-family: 'Oswald', sans-serif;
+}
+.select-opt {
+    background: #353b48;
+    border: none;
+    outline: none;
+    box-shadow: unset;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+.btn {
+    font-size: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: #39b558;
+    color: white;
+    border: none;
+    padding: 7px 5px 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tax {
+    font-size: 16px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+@media only screen and (max-width: 918px) {
+
+.form-container {
+    width: 300px;
+}
+.form-group {
+    width: 250px;
+}
+.form-label {
+    font-size: 14px;
+}
+.input-form {
+    font-size: 16px;
+}
+.select-input {
+    font-size: 16px;
+}
+.tax {
+    font-size: 14px;
+}
+#price {
+    font-size: 25px;
+}
+.text-top > h3 {
+    font-size: 16px;
+}
+.btn {
+    font-size: 16px;
+}
+}

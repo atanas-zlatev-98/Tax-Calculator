@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tax Calculator</title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+            <div class="text-top">
+                <h3>Данъчен Калкулатор</h3>
+                <p>гр.Пазарджик</p>
+            </div>
+            <form class="form">
+
+                <div class="form-group">
+                    <label class="form-label">Мощност на Автомобила</label>
+                    <input class="input-form" type="text" id="horsepower" required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Възраст на Автомобила</label>
+                    <select id="year" class="select-input">
+                        <option class="select-opt" value="До 5 години включително">До 5 години включително</option>
+                        <option class="select-opt" value="Над 5 до 10 години">Над 5 до 10 години</option>
+                        <option class="select-opt" value="Над 10 до 15 години">Над 10 до 15 години</option>
+                        <option class="select-opt" value="Над 15 до 20 години">Над 15 до 20 години</option>
+                        <option class="select-opt" value="Над 20 години">Над 20 години</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Екологична категория</label>
+                    <select id="euro" class="select-input">
+                        <option class="select-opt" value="Без Екологична категория">Без Екологична категория</option>
+                        <option class="select-opt" value="Евро 1">Евро 1</option>
+                        <option class="select-opt" value="Евро 2">Евро 2</option>
+                        <option class="select-opt" value="Евро 3">Евро 3</option>
+                        <option class="select-opt" value="Евро 4">Евро 4</option>
+                        <option class="select-opt" value="Евро 5">Евро 5</option>
+                        <option class="select-opt" value="Евро 6 или EEV">Евро 6 или EEV</option>
+                    </select>
+                </div>
+                <button class="btn" type="button" id="btn">Изчисли</button>
+                <div class="price-to-pay">
+                    <h5 class="tax">Вашият годишен данън е:</h5>
+                    <p id="price"></p>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
